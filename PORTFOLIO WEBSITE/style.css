@@ -1,0 +1,234 @@
+/* Warna Utama */
+:root {
+  --warna-biru-laut: #032b44; /* Biru Laut */
+  --warna-biru-muda: #45a0e6; /* Biru Muda */
+  --warna-biru-tua: #1a1d23; /* Biru Tua */
+  --warna-hitam: #000000; /* Hitam */
+  --warna-putih: #ffffff; /* Putih */
+}
+
+/* Header */
+
+header {
+  background-color: var(--warna-biru-laut);
+  color: var(--warna-putih);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: var(--warna-putih);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: var(--warna-biru-muda);
+  color: var(--warna-putih);
+}
+
+nav a.active {
+  background-color: var(--warna-biru-muda);
+  color: var(--warna-putih);
+}
+
+/* Button Efek */
+nav a.btn {
+  background-color: var(--warna-biru-muda);
+  color: var(--warna-putih);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+nav a.btn:hover {
+  background-color: var(--warna-biru-laut);
+  color: var(--warna-putih);
+}
+
+nav a.btn:active {
+  background-color: var(--warna-biru-tua);
+  color: var(--warna-putih);
+}
+/* last header */
+
+/* main Konten */
+/* About Me Section */
+#about {
+  background-color: #f7f7f7;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+#about ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#about li {
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#about li:last-child {
+  border-bottom: none;
+}
+
+#about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Education Section */
+#about ul {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about li {
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#about li:last-child {
+  border-bottom: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #about {
+    padding: 20px;
+  }
+  #about img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  #about {
+    padding: 10px;
+  }
+  #about img {
+    width: 100px;
+    height: 100px;
+  }
+} /* Style untuk ilustrasi */
+.bi-person {
+  font-size: 50px; /* Ukuran font untuk ilustrasi */
+  color: #333; /* Warna font untuk ilustrasi */
+}
+main {
+  background-color: var(--warna-putih);
+  padding: 20px;
+}
+
+main h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--warna-biru-laut);
+}
+
+main p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: var(--warna-hitam);
+}
+
+/* Card */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.card {
+  background-color: var(--warna-biru-muda);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--warna-biru-laut);
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: var(--warna-hitam);
+}
+
+/* Footer */
+footer {
+  background-color: var(--warna-hitam);
+  color: var(--warna-putih);
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: var(--warna-biru-muda);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--warna-biru-laut);
+}
